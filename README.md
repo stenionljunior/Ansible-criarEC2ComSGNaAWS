@@ -2,13 +2,6 @@
 
 Provisionamento de instância EC2 com Security Group na AWS utilizando o Ansible
 
-## Fases do Projeto
-
-- Provisioning
-- Install_k8s
-
-
-
 ## Configuração do ambiente:
 
 Necessário ter instalado o Python, pip e boto na máquina de controle do Ansible.
