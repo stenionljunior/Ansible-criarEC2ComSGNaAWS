@@ -2,7 +2,7 @@
   local_action:
     module: ec2_group
     name: "{{ sec_group_name }}"
-    description: sg kubernetes
+    description: SG Ansible
     profile: "{{ profile }}"
     region: "{{ region }}"
     rules:
