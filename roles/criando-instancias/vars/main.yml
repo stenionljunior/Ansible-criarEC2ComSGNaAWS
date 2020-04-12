@@ -1,0 +1,15 @@
+---
+# vars file for criando-instancias
+# Necessário alterar, caso necessário:
+# - Tipo da instancia
+# - ID da AMI 
+# - Region
+# - count - quantidade de instancias que serao provisionandas
+# - profile - Profile eh o nome default que eh criado quando o comando aws configure eh executado (~/.aws/credentials)
+instance_type: t2.micro
+sec_group_name: ansible-SG
+image: ami-07ebfd5b3428b6f4d
+keypair: ansible
+region: us-east-1
+count: 2
+profile: default
