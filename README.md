@@ -40,5 +40,13 @@ aws configure
 ```
 
 
+## Para executar:
+
+```bash
+git clone https://github.com/stenionljunior/Ansible-criarEC2ComSGNaAWS.git
+cd Ansible-criarEC2ComSGNaAWS/
+ansible-playbook -i hosts main.yml
+```
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
