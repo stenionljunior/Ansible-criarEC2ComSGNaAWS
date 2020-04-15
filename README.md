@@ -23,7 +23,7 @@ pip install boto
  
 ## Configurações para acessar a AWS
 
-Abaixo o exemplo para configuração utilizando variável de ambiente e utilizando o AWS CLI
+Exemplo de configuração utilizando variável de ambiente e utilizando o AWS CLI
 
 - Via variável de ambiente:
 
@@ -40,7 +40,7 @@ aws configure
 ```
 
 
-## Para executar:
+## Para rodar o playbook na máquina de controle do Ansible.:
 
 ```bash
 git clone https://github.com/stenionljunior/Ansible-criarEC2ComSGNaAWS.git
