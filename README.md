@@ -40,7 +40,7 @@ aws configure
 ```
 
 
-## Para rodar o playbook na máquina de controle do Ansible.:
+## Para rodar o playbook na máquina de controle do Ansible:
 
 ```bash
 git clone https://github.com/stenionljunior/Ansible-criarEC2ComSGNaAWS.git
